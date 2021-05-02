@@ -1,0 +1,8 @@
+type Product {
+  id: ID!
+  title: String!
+}
+type Query {
+  searchProductEs(title: String!): [ Product ]
+  listProductsEs: [ Product ]
+}
